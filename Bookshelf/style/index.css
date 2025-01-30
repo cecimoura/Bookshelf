@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
+
+h1{
+    font-family: "Kode Mono";
+}
+
+body{
+    background-color: rgb(171, 179, 131);
+}
