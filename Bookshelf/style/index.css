@@ -3,7 +3,7 @@
 
 h1{
     font-family: "Kode Mono";
-    color: #2c4f33;
+    color: #2c4f38;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 }
 
 #welcome-board{
-    background-color:cadetblue;
+    background-color:rgb(211, 235, 236);
     background-size: 145px;
    
     display: flex;
@@ -21,7 +21,27 @@ body{
     border: 5px;
 }
 
-#nuvem{
-   outline: red 4px solid;
-  
+#board1-titulo{
+    font-family: Kode Mono;
+    color: rgb(36, 87, 47);
+    
+    display: flex;
+    justify-content: center;
+   
+    /* Adicionando estilo para parecer um retângulo */
+    width: 400px;          /* largura */
+    height: 150px;         /* altura */
+    background-color: #e0ffe0af; /* cor de fundo suave */
+    border: 2px solid rgb(36, 87, 47); /* borda */
+    padding: 10px;         /* espaço interno */
+    border-radius: 8px;    /* bordas levemente arredondadas, opcional */
 }
+
+#board{
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  top: 10px;
+}
+
